@@ -49,5 +49,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
-
+    "Incremental search improve
+    Plug 'haya14busa/is.vim'
+    "AutoSave
+    Plug '907th/vim-auto-save'
     call plug#end()

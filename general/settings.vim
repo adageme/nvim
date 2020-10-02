@@ -38,6 +38,7 @@ set incsearch
 set guifont=Fira\ Code\ Nerd\ Font
 
 let python_highlight_all=1
+let g:auto_save = 1  " enable AutoSave on Vim startup
 ":set modifiable
 " New stuff
 " set notimeout nottimeout
