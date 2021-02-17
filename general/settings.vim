@@ -15,10 +15,11 @@ set splitbelow                          " Horizontal splits will automatically b
 set splitright                          " Vertical splits will automatically be to the right
 set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
-set tabstop=2                           " Insert 2 spaces for a tab
-set shiftwidth=2                        " Change the number of space characters inserted for indentation
+set tabstop=4                           " Insert 2 spaces for a tab
+set shiftwidth=4                        " Change the number of space characters inserted for indentation
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 set expandtab                           " Converts tabs to spaces
+set softtabstop=4
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
 set laststatus=2                        " Always display the status line
@@ -42,11 +43,11 @@ let g:auto_save = 1  " enable AutoSave on Vim startup
 ":set modifiable
 " New stuff
 " set notimeout nottimeout
-" set scrolloff=1
-" set sidescroll=1
-" set sidescrolloff=1
+set scrolloff=10
+set sidescroll=5
+set sidescrolloff=10
 " set display+=lastline
-" set backspace=eol,start,indent
+set backspace=eol,start,indent
 " set nostartofline
 " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " set mmp=1300

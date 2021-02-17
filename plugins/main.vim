@@ -22,27 +22,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " NERDTree
     Plug 'preservim/nerdtree'
     " Better Comments
-    Plug 'tpope/vim-commentary'
-    " Convert binary, hex, etc..
-    Plug 'glts/vim-radical'
-    " Better Syntax Support
-    " Plug 'nvim-treesitter/nvim-treesitter'
-    Plug 'sheerun/vim-polyglot'
+    Plug 'preservim/nerdcommenter'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Closetags
     Plug 'alvan/vim-closetag'
     " Status Line
     Plug 'vim-airline/vim-airline'
-    Plug 'kevinhwang91/rnvimr'
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
-    " Smooth scroll
-    Plug 'psliwka/vim-smoothie'
-    " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-    " Better Whitespace
-    Plug 'ntpeters/vim-better-whitespace'
     "Quick-scope
     Plug 'unblevable/quick-scope'
     "FZF
